@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "vir-backend"
+name = "backend-flask"
 version = "0.1.0"
 description = ""
 authors = ["Arthur Zanella Lovato <arthur.zanella.lovato.1998@gmail.com>"]
@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.12.*"
-fastapi = "^0.112.1"
+flask = "^3.0.3"
 
 
 [build-system]
